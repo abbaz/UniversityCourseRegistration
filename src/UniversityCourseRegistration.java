@@ -4,6 +4,7 @@ public class UniversityCourseRegistration {
         Course course = new Course("CS201", "Software Construction & Design", 3);
 
         Registration reg = new Registration(student, course);
+        System.out.println();
         reg.displayRegistration();
     }
 }
